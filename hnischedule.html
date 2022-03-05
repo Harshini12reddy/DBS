@@ -27,18 +27,20 @@
     </head>>
 <body>
 <h1>Choose Date and Time </h1>
-<form >
+<form action="schedule.php" method="post" >
     <div class="div2">
-        <input type="text" placeholder="Username" name="" value=""><br>
+        <input type="email" placeholder="enter your email" name="HNIusername" required>
     </div>
     <div class="div2">
-        <input type="datetime-local" >
+        <input type="datetime-local" name="date_time" required>
+        
+    </div>
+    <div class="div2">
+        <input type="text" placeholder="Address" name="address" required  >
         <input type="submit">
     </div>
-    <div class="div2">
-        <input type="text" placeholder="Address" name="" value="" >
-    </div>
-    
+ 
+
   
 </form>
 </body>

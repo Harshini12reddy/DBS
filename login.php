@@ -9,10 +9,10 @@
 <?php
 session_start();
 if(isset($_SESSION['login_id']))
-header("location:index.php?page=home");
+header("location:login.html?page=home");
 ?>
 
-</head>
+
 <style>
 	body{
 		width: 100%;
@@ -88,48 +88,7 @@ header("location:index.php?page=home");
 		opacity: 92% ;
 	}
 </style>
-<body>
-<div class="wrapper">
-<nav class="navbar navbar-dark">
-<ul class="navbar-nav">
-		<li class="nav-item">
-		<a class="nav-link" data-widget="pushmenu" href="/" role="button">
-			<i class="fas fa-home "></i>Home
-		</a>
-		</li>
-</ul>
-</nav>
-</div>
-  <main id="main" class=" alert-info">
-  		<div id="login-left">
-		  <span class="appointmentlogo"></span>
-  		</div>
-  		<div id="login-right">
-  			<div class="card col-md-8">
-  				<div class="card-body ">
-  					<form id="login-form" >
-              <H1 style="text-shadow: 0 0 5px skyblue, 0 0 5px darkgreen;"><center><u>DBS</u></center></H1>
-              <H6 style="text-align:center;"><super>Banking System<super></H6>
-  						<div class="form-group">
-  							<label for="username" class="control-label">Username</label>
-  							<input type="text" id="username" name="username" class="form-control">
-  						</div>
-  						<div class="form-group">
-  							<label for="password" class="control-label">Password</label>
-  							<input type="password" id="password" name="password" class="form-control">
-  						</div>
-  						<center><button class="btn-sm btn-block btn-wave col-md-4 btn-info ">Login</button></center>
-  					</form>
-  				</div>
-  			</div>
-  		</div>
-
-
-  </main>
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
-
-</body>
+</head>
 <script>
 	$('#login-form').submit(function(e){
 		e.preventDefault()
