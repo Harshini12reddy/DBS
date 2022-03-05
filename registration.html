@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<body  background="images/s2.png">
+<head>
+	<title>SIGN IN</title>
+<link rel="stylesheet" type="text/css" href="css/signin_styles.css">
+</head>
+    <body>
+			<center><h1>REGISTRATION FORM</h1><br><br><img src="images/login.png"><br><br><br>
+		<form action ="registration_backend.php" method ="POST" onsubmit="return validateForm()">
+
+			<table>
+				<tr>
+					<td class="button">
+						First Name :
+					</td>
+					<td >
+						<input type="text" placeholder="First Name" name="firstname" required>
+					</td>
+				</tr>
+				<tr>
+					<td class="button">
+						Last Name :
+					</td>
+					<td >
+						<input type="text" placeholder="Last Name" name="lastname" required>
+					</td>
+				</tr>				
+				<tr>
+					<td class="button">
+						Username :
+					</td>
+					<td >
+						<input type="text" placeholder="UserName" name="username" required>
+					</td>
+				</tr>
+				<tr>
+					<td class="button">
+						Email Id:
+					</td>
+					<td >
+						<input type="email" placeholder="Email" name="email" required>
+					</td>
+				</tr>
+				<tr>
+					<td class="button">
+						Password:
+					</td>
+					<td>
+						<input type="Password" placeholder="Password" name="password" required>
+					</td>
+				</tr>
+				<tr>
+					<td class="button">
+						Gender :
+					</td>
+					<td >
+						<input type="radio" name="Gender" value="m" required>Male
+						<input type="radio" name="Gender" value="f" required>Female
+					</td>
+				</tr>
+				<tr>
+					<td class="button">
+						Phone no :
+					</td>
+					<td>
+
+						<input type="Phone" placeholder="9848******" name="phone" required>
+					</td>
+				</tr>
+				<tr>
+					<td class="button">
+						<input type="Submit" value="Submit">
+					</td>
+				</tr>
+				<tr>
+					<td class="button">
+						<input type="Reset" value="Reset">
+					</td>
+				</tr>
+
+			</table>
+		</centre>
+		</form>
+	</body>
+</body>
+</html>
