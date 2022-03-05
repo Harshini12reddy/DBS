@@ -14,6 +14,11 @@ if($action == 'logout'){
 	if($logout)
 		echo $logout;
 }
+if($action == 'address'){
+	$logout = $crud->address();
+	if($save)
+		echo $save;
+}
 if($action == 'save_individual'){
 	$save = $crud->save_individual();
 	if($save)
