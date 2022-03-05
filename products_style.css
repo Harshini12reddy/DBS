@@ -1,0 +1,111 @@
+.co{
+  color: white;
+}
+.zoom
+{
+transition:transform 0.5s;
+}
+.zoom:hover
+{
+transform:scale(1.2);
+}
+#foo {
+position: absolute;
+margin: auto;
+text-align: center;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+height: 3cm;
+
+}
+h6  {color: white;}
+.list{
+  background-color:#FBF9F8;
+  font: #3C3E94;
+}
+
+*{
+margin: 0px;
+padding: 0px;
+}
+#container ul {
+list-style: none;
+}
+#container ul li{
+background-color:#3C3E94;
+width:210px;
+border: 1px solid white;
+height: 50px;
+line-height: 55px;
+text-align: center;
+    float: left;
+    color: white;
+    font-size: 18px;
+    position: relative;
+    }
+ #container ul li:hover{
+  background-color: #388222;
+ }
+ #container ul li ul{
+  background-color: #B0A4D1   ;
+
+ }
+ #container ul li ul li{
+  background-color: #410FCE;
+  color: white;
+ }
+  #container ul ul{
+    display: none;
+
+}
+#container ul li:hover > ul{
+  display: block;
+
+
+}
+#container ul ul ul {
+  margin-left: 200px;
+  top: 0px;
+    position: absolute;
+}
+.bottom-container{
+  padding: 300px 650px 50px;
+}
+.copyright{
+  font-size: 0.65rem  ;
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px 0;
+}
+
+
+.btn {
+  background: #3C3E94;
+  background-image: -webkit-linear-gradient(top, #3C3E94, #3C3E94);
+  background-image: -moz-linear-gradient(top, #3C3E94, #3C3E94);
+  background-image: -ms-linear-gradient(top, #3C3E94, #3C3E94);
+  background-image: -o-linear-gradient(top, #3C3E94, #3C3E94);
+  background-image: linear-gradient(to bottom, #3C3E94, #3C3E94);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+p{
+  line-height: 2;
+}
