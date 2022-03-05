@@ -146,10 +146,8 @@ header("location:index.php?page=home");
 
 			},
 			success:function(resp){
-				if(resp == 1){
-					location.href ='index.php?page=home';    
-				}else if(resp == 2){
-					location.href ='booking.php';
+				if(resp == 2){
+					location.href ='schedule.php';
 				}else{
 					$('#login-form').prepend('<div class="alert alert-danger">Username or Password is incorrect.</div>')
 					$('#login-form button[type="button"]').removeAttr('disabled').html('Login');
