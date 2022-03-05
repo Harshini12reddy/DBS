@@ -6,14 +6,16 @@ if(isset($_POST['submit']))
 {
   
 
-  $fname=$_POST[""];
+  $HNIusername=$_POST["HNIusername"];
+  $date_time=$_POST["date_time"];
+  $address=$_POST["address"];
   
 
 $sql="INSERT INTO appointment_data (HNIusername,date_time,address)
 
 VALUES
 
-('$fname','$ ','$ ')";
+('$HNIusername','$date_time ','$address ')";
 
 
 

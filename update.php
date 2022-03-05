@@ -6,10 +6,12 @@ if(isset($_POST['submit']))
 {
   
 
-  $fname=$_POST[""];
+  $HNIusername=$_POST["HNIusername"];
+  $date_time=$_POST["date_time"];
+  $address=$_POST["address"];
   
 
-$sql = "UPDATE appointment_data SET date_time=' ' WHERE HNIusername=''";
+$sql = "UPDATE appointment_data SET date_time='$date_time ' WHERE HNIusername='HNIuser'";
 
 
 
